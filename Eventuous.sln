@@ -153,27 +153,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Tests.SqlServer",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{E690B0DD-DD1E-4B80-8E72-C4E554F8A40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "src\Benchmarks\Benchmarks\Benchmarks.csproj", "{F481C1D6-F34C-47B0-A68E-772E96924C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks", "src\Benchmarks\Benchmarks\Benchmarks.csproj", "{F481C1D6-F34C-47B0-A68E-772E96924C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Domain", "src\Core\src\Eventuous.Domain\Eventuous.Domain.csproj", "{DD62D016-EF07-4D74-9DDE-F8DF4C87F773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Domain", "src\Core\src\Eventuous.Domain\Eventuous.Domain.csproj", "{DD62D016-EF07-4D74-9DDE-F8DF4C87F773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Serialization", "src\Core\src\Eventuous.Serialization\Eventuous.Serialization.csproj", "{E736A522-DE26-4A85-B9E2-A3473C9F5CE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Serialization", "src\Core\src\Eventuous.Serialization\Eventuous.Serialization.csproj", "{E736A522-DE26-4A85-B9E2-A3473C9F5CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Shared", "src\Core\src\Eventuous.Shared\Eventuous.Shared.csproj", "{DC3CB8A9-121A-4A17-B437-CC0129DC9BDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Shared", "src\Core\src\Eventuous.Shared\Eventuous.Shared.csproj", "{DC3CB8A9-121A-4A17-B437-CC0129DC9BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Persistence", "src\Core\src\Eventuous.Persistence\Eventuous.Persistence.csproj", "{8B155B20-B23E-490E-85B8-9712BCA91F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Persistence", "src\Core\src\Eventuous.Persistence\Eventuous.Persistence.csproj", "{8B155B20-B23E-490E-85B8-9712BCA91F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Diagnostics", "src\Core\src\Eventuous.Diagnostics\Eventuous.Diagnostics.csproj", "{A25D6B10-5B40-46B2-ACBB-F47C76ECFAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Diagnostics", "src\Core\src\Eventuous.Diagnostics\Eventuous.Diagnostics.csproj", "{A25D6B10-5B40-46B2-ACBB-F47C76ECFAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Application", "src\Core\src\Eventuous.Application\Eventuous.Application.csproj", "{3743969A-4635-40DE-B45C-46F80CBB5733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Application", "src\Core\src\Eventuous.Application\Eventuous.Application.csproj", "{3743969A-4635-40DE-B45C-46F80CBB5733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Tests.Diagnostics", "src\Core\test\Eventuous.Tests.Diagnostics\Eventuous.Tests.Diagnostics.csproj", "{EAB7C8CC-FD8D-437B-ADB5-FA02FC62AAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Tests.Diagnostics", "src\Core\test\Eventuous.Tests.Diagnostics\Eventuous.Tests.Diagnostics.csproj", "{EAB7C8CC-FD8D-437B-ADB5-FA02FC62AAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Tests.Application", "src\Core\test\Eventuous.Tests.Application\Eventuous.Tests.Application.csproj", "{2C44A145-81E5-4F43-9C9A-AB3CF822AF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Tests.Application", "src\Core\test\Eventuous.Tests.Application\Eventuous.Tests.Application.csproj", "{2C44A145-81E5-4F43-9C9A-AB3CF822AF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Redis", "src\Redis\src\Eventuous.Redis\Eventuous.Redis.csproj", "{179C730A-CD2E-4B4D-935B-38F7E9CFE33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Redis", "src\Redis\src\Eventuous.Redis\Eventuous.Redis.csproj", "{179C730A-CD2E-4B4D-935B-38F7E9CFE33B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventuous.Tests.Redis", "src\Redis\test\Eventuous.Tests.Redis\Eventuous.Tests.Redis.csproj", "{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.Tests.Redis", "src\Redis\test\Eventuous.Tests.Redis\Eventuous.Tests.Redis.csproj", "{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDb", "CosmosDb", "{3B3F75F4-F6DE-4508-8579-232C2ACF0D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75EFE7A4-B203-414F-86C3-F045DADD8B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventuous.CosmosDb", "src\CosmosDb\src\Eventuous.CosmosDb\Eventuous.CosmosDb.csproj", "{2E92BF86-2001-440E-8F60-AC65FDD8D4EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -373,6 +379,10 @@ Global
 		{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E92BF86-2001-440E-8F60-AC65FDD8D4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E92BF86-2001-440E-8F60-AC65FDD8D4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E92BF86-2001-440E-8F60-AC65FDD8D4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E92BF86-2001-440E-8F60-AC65FDD8D4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -450,6 +460,8 @@ Global
 		{2C44A145-81E5-4F43-9C9A-AB3CF822AF82} = {0ED6785B-60EF-46B4-B938-EF04189FC8BC}
 		{179C730A-CD2E-4B4D-935B-38F7E9CFE33B} = {0E2520E7-B4A6-47E7-AED8-662C88441A84}
 		{5DACCAF8-9CD4-4B0B-96B7-15EF049EB199} = {B1AAD6CA-2710-41E0-9495-B43C313D6BCA}
+		{75EFE7A4-B203-414F-86C3-F045DADD8B56} = {3B3F75F4-F6DE-4508-8579-232C2ACF0D0F}
+		{2E92BF86-2001-440E-8F60-AC65FDD8D4EA} = {75EFE7A4-B203-414F-86C3-F045DADD8B56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0691467B-C257-46DB-BC4F-88EB7CD615B8}
